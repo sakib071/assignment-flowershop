@@ -125,11 +125,6 @@ body {
     color: #E55473;
 }
 
-/* .social-content {
-    margin: 150px;
-    text-align: center;
-} */
-
 .social-img {
     display: flex;
     justify-content: center;
@@ -184,25 +179,23 @@ body {
 
 .footer>.section-title {
     color: #FFFFFF;
+    font-size: 50px;
 }
 
 .footer span {
     color: #E55473;
 }
-
 .footer-desc {
+    width: 600px;
+    margin: 0 auto;
+    padding: 10px 0;
     color: rgba(255, 255, 255, 0.90);
-    text-align: center;
     font-size: 15px;
     font-weight: 400;
-    line-height: 30px;
-    display: flex;
-    flex-direction: column;
 }
 
 .footer-footer {
     color: rgba(255, 255, 255, 0.40);
-    text-align: center;
     font-size: 16px;
     font-weight: 400;
 }
