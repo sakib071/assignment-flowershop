@@ -161,6 +161,52 @@ body {
     padding: 15px 25px;
 }
 
+/* ---------------------------  */
+
+
+
+.blog-content {
+    margin-top: 50px;
+    width: 600px;
+    text-align: center;
+    padding: 100px 240px;
+    margin: 0 auto;
+}
+
+.blog-title {
+    margin: 5px;
+    color: #272727;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.blog-info-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.blog-info {
+    padding: 10px;
+    background-color: #fff;
+}
+
+.blog-img {
+    margin-bottom: 0;
+    width: 200px;
+    height: 300px;
+    padding: 80px 50px 0 50px;
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.073);
+}
+
+.blog-info .btn-primary{
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 15px 25px;
+}
+/* ------------------------------------  */
+
 .footer {
     margin-top: 120px;
     width: 1140;
