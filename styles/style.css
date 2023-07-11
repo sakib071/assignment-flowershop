@@ -1,5 +1,4 @@
 body {
-    font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -46,6 +45,8 @@ body {
 /* main {
     max-width: 1140px;
     margin: 0 auto;
+    text-align: center;
+    align-items: center;
 } */
 
 .featured-content {
@@ -59,10 +60,10 @@ body {
     margin: 5px;
     color: #272727;
     font-size: 30px;
-    font-weight: 800;
+    font-weight: 700;
 }
 
-.featured-content, .section-desc {
+.section-desc {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
@@ -119,14 +120,15 @@ body {
     text-align: center;
     align-items: center;
 }
+
 .hot-deal-content span {
     color: #E55473;
 }
 
-.social-content {
+/* .social-content {
     margin: 150px;
     text-align: center;
-}
+} */
 
 .social-img {
     display: flex;
@@ -139,4 +141,68 @@ body {
 
 .social-info img {
     width: 300px;
+}
+
+.latest-deal {
+    max-width: 780px;
+    text-align: center;
+    padding: 100px 240px;
+    margin: 0 auto;
+    background-image: url('../flower-asset/rectangle-9.png');
+    background-repeat: no-repeat;
+}
+
+.latest-desc {
+    color: #27272799;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.email-input input {
+    width: 500px;
+    height: 30px;
+    border: 0;
+    padding: 10px;
+    border-radius: 8px;
+    margin-right: 5px;
+}
+
+.email-input .btn-primary {
+    font-size: 15px;
+    padding: 15px 25px;
+}
+
+.footer {
+    margin-top: 120px;
+    width: 1140;
+    height: 200px;
+    background-color: #111010;
+    text-align: center;
+    padding: 50px;
+}
+
+.footer>.section-title {
+    color: #FFFFFF;
+}
+
+.footer span {
+    color: #E55473;
+}
+
+.footer-desc {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-footer {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
 }
