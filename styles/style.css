@@ -1,5 +1,5 @@
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Abhaya Libre', serif;
 }
 
 .btn-primary {
@@ -42,13 +42,6 @@ body {
     margin-bottom: 0;
 }
 
-/* main {
-    max-width: 1140px;
-    margin: 0 auto;
-    text-align: center;
-    align-items: center;
-} */
-
 .featured-content {
     width: 600px;
     text-align: center;
@@ -59,8 +52,8 @@ body {
 .section-title {
     margin: 5px;
     color: #272727;
-    font-size: 30px;
-    font-weight: 700;
+    font-size: 35px;
+    font-weight: 800;
 }
 
 .section-desc {
@@ -180,17 +173,19 @@ body {
 .footer>.section-title {
     color: #FFFFFF;
     font-size: 50px;
+    font-weight: 800;
 }
 
 .footer span {
     color: #E55473;
 }
+
 .footer-desc {
     width: 600px;
     margin: 0 auto;
     padding: 10px 0;
     color: rgba(255, 255, 255, 0.90);
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 400;
 }
 
